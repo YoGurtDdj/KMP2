@@ -28,10 +28,15 @@ body{
     border-bottom: 1px solid var(--secondary);
 }
 .logo{
+    height: 40px;
+    text-align: center;
+    width: 170px;
     font-size: 30px;
     font-weight: 700;
     cursor: pointer;
-    color: var(--secondary);
+    background-color: #3498db;
+    border-radius: 15px;
+    color: white;
 }
 
 .food-page{
@@ -61,9 +66,9 @@ body{
 }
 .food-img img{
     width: 100%;
-    height: 165px;
+    height: 160px;
     border-radius: 30px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 .food-name{
     color: var(--primary);
