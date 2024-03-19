@@ -31,7 +31,7 @@ function FoodList(){
     return (
         <section className="food-page">
             <div className="container">
-                <h1 className="title">Order your food</h1>
+                <h1 className="title">Choose your course</h1>
                 <div className="row">
                     {isLoading ? (<Loading/>) : (foods.map((food) => <FoodCard food={food} key={food.id} />))}
                 </div>
